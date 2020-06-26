@@ -56,7 +56,6 @@ margin-bottom: 0;
 
 }
 .table-form{
-	display: inline-block;
 	width: 0 auto;
 }
 .main-footter{
@@ -197,6 +196,5 @@ input[type=file] {
 
 .select-css:disabled:hover, .select-css[aria-disabled=true] {
     border-color: #aaa;
-	
 }
 /*  */
