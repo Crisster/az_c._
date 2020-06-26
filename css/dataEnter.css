@@ -50,7 +50,8 @@ margin-bottom: 0;
 .main{
   background-color:#fbd46d;
   text-align: center;
-  color: #4f8a8b
+  color: #4f8a8b;
+
 }
 .table-form{
 	display: inline-block;
@@ -76,6 +77,7 @@ margin-bottom: 0;
 .contani-main{
   text-align: center;
   color: #fbd46d;
+  width: 0 auto;
 }
 
 .submit{
