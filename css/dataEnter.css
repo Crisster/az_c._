@@ -4,7 +4,7 @@ body{
 }
 div{
   margin:0 auto;
-  width:0 auto;
+  width:50% ;
 }
 img{
     display: block;
@@ -52,6 +52,7 @@ margin-bottom: 0;
   background-color:#fbd46d;
   text-align: center;
   color: #4f8a8b;
+  margin-bottom: 20px;
 
 }
 .table-form{
@@ -62,13 +63,10 @@ margin-bottom: 0;
   background-color:#fbd46d;
   text-align: center;
   color: #4f8a8b;
-  width: auto;
-  height: 50px;
   margin-top: 21.440px;
-  position:absolute;
-  bottom:0 auto;
-  width:100%;
-  height:60px;
+  bottom:0;
+  width:50%;
+  height:70px;
 
 }
 .footter-style{
