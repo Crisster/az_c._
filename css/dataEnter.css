@@ -5,6 +5,9 @@ body{
 div{
   margin:0 auto;
 }
+h1{
+  display: inline-block;
+}
 img{
     display: block;
     margin-left: auto;
