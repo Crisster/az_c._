@@ -96,11 +96,25 @@ div{
 }
 
 /* The grid: Four equal columns that floats next to each other */
-.card-deck {
-  float: left;
 
+.card-deckk{
+	float: center;
   width: 100%;
   padding: 10px;
+}
+.saeedee-k{
+	float: center;
+  width: 100%;
+  padding: 10px;
+	background-image: url("../images/saeedykanjer.jpg");
+
+}
+.omani-k{
+	float: center;
+  width: 100%;
+  padding: 10px;
+	background-image: url("../images/omani-khnger.jpg");
+
 }
 
 img {
@@ -108,13 +122,29 @@ img {
 }
 
 /* Style the images inside the grid */
-.card-deck img {
-  opacity: 0.8;
-  cursor: pointer;
+
+.card-deckk img{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.saeedee-k img{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.omani-k img{
+	opacity: 0.8;
+	cursor: pointer;
 }
 
-.card-deck img:hover {
-  opacity: 1;
+.card-deckk img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.saeedee-k img:hover{
+	opacity: 1;
+}
+.omani-k img:hover{
+	opacity: 1;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -147,15 +177,46 @@ img {
     border: 0;
 
 }
-
+.all-table{
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'El Messiri', sans-serif;
+}
+.all-table img{
+	border: solid #22475e;
+}
+/* NOTE: right and lift position */
+.td-right{
+  text-align: left;
+  width:50%;
+}
+.td-left{
+  text-align: right;
+  width:50%;
+}
+/* NOTE: right and lift position finsh */
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .card-deck {
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
-  }
+	.card-deckk{
+			width: 100%;
+			display: block;
+			margin-bottom:0 auto;
+		}
+	.saeedee-k{
+		width: 100%;
+		display: block;
+		margin-bottom:0 auto;
+		background-size: 100% 100%;
+  	background-image: url("../images/saeedykanjer-phone.jpg");
+	}
+	.omani-k{
+		width: 100%;
+		display: block;
+		margin-bottom:0 auto;
+		background-size: 100% 100%;
+		background-image: url("../images/moani-phone.jpg");
+	}
 }
 
 
@@ -165,6 +226,28 @@ img {
     font-size:30px;
 }
 
+.myButton {
+
+	background-color:#1592c8;
+	border-radius:3px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 60px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+	background-color:#11cdd4;
+	text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 
 thead {
