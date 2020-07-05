@@ -20,7 +20,15 @@ function applyCollapsible() {
     }
 }
 $(document).ready(function(){
-			  $("#gg").click(function(){
-				$("#ff").slideToggle();
+        $(".cat1").click(function(){
+        $(".cat11").slideToggle();
+        });
+
+			  $("#1").click(function(){
+				$("#11").slideToggle();
+			  });
+
+        $("#2").click(function(){
+        $("#22").slideToggle();
 			  });
 			});
