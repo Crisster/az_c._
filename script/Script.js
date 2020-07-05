@@ -21,14 +21,14 @@ function applyCollapsible() {
 }
 $(document).ready(function(){
         $(".cat1").click(function(){
-        $(".cat11").slideToggle();
+        	$(".cat11").slideToggle();
         });
 
-			  $("#1").click(function(){
-				$("#11").slideToggle();
-			  });
+	$("#1").click(function(){
+		$("#11").slideToggle();
+	});
 
         $("#2").click(function(){
-        $("#22").slideToggle();
-			  });
-			});
+        	$("#22").slideToggle();
+	});
+});
